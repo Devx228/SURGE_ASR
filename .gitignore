@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+asrenv/
+venv/
+env/
+
+# Ignore the contents of these directories...
+data/alignments/*
+data/features/*
+data/hindi/train/*
+data/hindi/test/*
+data/sanskrit/train/*
+data/sanskrit/test/*
+outputs/*
+logs/*
+cache/*
+
+# ...but DO NOT ignore the .gitkeep files inside them.
+
+# Ignore specific large file types everywhere
+*.log
+*.json
+*.pth
+*.pt
+*.onnx
+
+# MFA files
+mfa_corpus/
+lexicon.txt
+sanskrit_lexicon.txt
+sanskrit_g2p_model.zip
+output_alignments/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
